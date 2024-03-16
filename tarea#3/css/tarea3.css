@@ -1,0 +1,314 @@
+/* PERSONALIZACION BARRA NAVEGACION */
+
+.navbar {
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.optmenu { 
+    font-size: 16px;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: bold;
+    transition: all 1s solid;
+    transition: font-size 0.5s ease-in-out;
+}
+
+.optmenu:hover {
+    color: #fff;
+    font-size: 18px;
+    transition: all 1s solid;
+    border-radius: 8px;
+    transition: font-size 0.5s ease-in-out;
+}
+
+.optmenu:active {
+    background-color: rgb(47, 93, 193);
+    color: white;
+}
+
+.menu{
+    font-family: "Lora", serif;
+}
+
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+
+.navbar-toggler {
+    background-color: #f5f7f9;
+
+}
+
+.navbar-toggler:hover {
+    background-color: rgb(38, 77, 159);
+    color: white;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+/*3 lineas horizontales */
+
+/*http: //hex2rgba.devoth.com  colores rgba*/
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}         
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*Header, footer y body*/
+
+p {
+    font-family: "Lora", serif;
+}
+
+#h{
+    font-family: "Lora", serif;
+}
+
+.iniciobtn{
+    background-color: rgb(38, 77, 159);
+}
+
+.header{
+    position: top;
+    height: 290px;
+    background-color: rgba(136, 136, 136, 0.242);
+    clip-path: ellipse(90% 70% at 50% 0%);
+    shape-outside: ellipse(90% 70% at 0% 50%);
+    shape-margin: 2em;
+}
+
+.footer{
+    padding: 50px;
+    background-color: rgba(136, 136, 136, 0.499);
+    clip-path: ellipse(90% 70% at 50% 100%) /* Elipse invertida */;
+    shape-outside: ellipse(90% 70% at 50% 0%) /* Elipse normal */;
+    shape-margin: 2em;
+    float: left;
+}
+
+.btnfoot{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+i{
+    color: white;
+    font-size: 30px;
+}
+
+.body{
+    background-color: rgb(255, 255, 255);
+}
+
+/*Scroltop*/
+
+.goto-top {
+    position: fixed;
+    bottom: 110px;
+    right: 20px;
+    width: 60px;
+    height: 30px;
+}
+
+.scroll{
+    background-color: black;
+    color: black;
+    height: 300px;
+    width: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+
+.llega{
+    font-family: "Lora", serif;
+    font-size: 80px;
+}
+
+.descubre{
+    font-family: "Lora", serif;
+    font-size: 50px;
+}
+
+.exposicion{
+    font-family: "Lora", serif;
+    font-weight: light;
+}
+
+
+
+.vercard {
+    margin-left: 10px;
+    font-size: 12px;
+    border: none;
+    width: 150px;
+    height: 32px;
+    font-size: 20px;
+    background-color: rgba(28, 108, 194, 0.699);
+    color: white;
+    border-radius: 13px;
+    text-decoration: none;
+}
+
+
+
+.opciones {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 32px;
+    font-size: 16px;
+    align-items: right;
+}
+
+.opciones:hover {
+    background-color: rgb(100, 89, 76);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 32px;
+    font-size: 16px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.asegura{
+    margin-top: 80px;
+    font-family: "Lora", serif;
+}
+
+.correo{
+    background-color: #d7d1d15f;
+    width: 400px;
+    padding: 9px;
+    border: 1px black;
+    outline: none;
+    border-radius: 2px;
+    font-family: "Lora", serif;
+}
+
+::placeholder{
+    font-family: "Lora", serif;
+}
+
+.inputbtn[type="button"] {
+    font-family: "Lora", serif;
+    padding: 8px 25px;
+    cursor: pointer;
+    outline: none;
+    background-color: #050505;
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px solid;
+}
+
+.inputbtn:hover{
+    background-color: rgb(100, 89, 76);
+    border: none;
+}
+
+.alertaRoja{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 22px;
+}
+.alertaVerde{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 22px;
+}
+
+
+.ws{
+        /*color de fondo imagen*/   
+        position: fixed;
+        z-index: 1000;
+        border-radius: 50%;
+        bottom: 67px;
+        right: 0px;
+        padding: 25px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+        margin-right: 50px;
+}
+
+
+.uil-phone {
+    font-size: 24px; 
+    margin-right: 8px; 
+}
+
+.iconoph{
+    margin-bottom: 22px;
+    color: rgb(7, 7, 7);
+}
+
+.iconoem{
+    margin-bottom: 22px;
+    letter-spacing: 8px;
+    color: rgb(7, 7, 7);
+}
+
+.sin-margin {
+    margin: 0;
+    padding: 0;
+}
+
+.correo{
+    color: rgb(1, 1, 1);
+    font-family: "Lora", serif;
+    font-size: 22px;
+}
+
+.planes{
+    margin-top: 50px;
+    font-size: 110px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
+
+.mapa{
+    margin-right: 750px;
+}
+
+.redes{
+    align-items: start;
+}
+
+.audio{
+    margin-left: 20px;
+    width: 800px;
+}
+
